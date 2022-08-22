@@ -1,0 +1,72 @@
+@mixin border {
+    border: solid 1px #dfdfdf
+}
+
+@mixin box-shadow {
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+            box-shadow: 0 3px 6px rgba(0,0,0,0.2)
+}
+
+@mixin rsl {
+    padding: 0;
+    margin: 0;
+
+    li {
+        list-style: none;
+    }
+}
+@mixin img-rs {
+  position: relative;
+  display: block;
+  &:before{
+    display: block;
+  }
+  img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+@mixin media($size) {
+  $xl: "(min-width: 1200px)";
+  $lg: "(min-width: 992px) and (max-width: 1199.98px)";
+  $md: "(max-width: 991.98px)";
+  $sm: "(max-width: 767.98px)";
+  $xs: "(max-width: 480.98px)";
+  @if $size == xl {
+    @media only screen and #{$xl} {
+      @content;
+    }
+  }
+  @else if $size == lg {
+    @media only screen and #{$lg} {
+      @content;
+    }
+  }
+   @else if $size == md {
+    @media only screen and #{$md} {
+      @content;
+    }
+  }
+
+  @else if $size == sm {
+    @media only screen and #{$sm} {
+      @content;
+    }
+  }
+  @else if $size == xs {
+    @media only screen and #{$xs} {
+      @content;
+    }
+  }
+  @else {
+    @media only screen and #{$size} {
+      @content;
+    }
+  }
+}

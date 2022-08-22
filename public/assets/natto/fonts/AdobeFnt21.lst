@@ -1,0 +1,367 @@
+%!Adobe-FontList 1.20
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SanFranciscoText-Bold
+FamilyName:San Francisco Text
+StyleName:Bold
+FullName:San Francisco Text Bold
+MenuName:San Francisco Text Bold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Admin\Desktop\nattoenzym\Font\SANFRANCISCOTEXT-BOLD.OTF
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:123276
+FileModTime:1421165268
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,San Francisco Text Bold
+NameArray:0,Win,1,San Francisco Text Bold
+NameArray:0,Win,16,San Francisco Text
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SanFranciscoText-BoldItalic
+FamilyName:San Francisco Text
+StyleName:Bold Italic
+FullName:San Francisco Text Bold Italic
+MenuName:San Francisco Text Bold Ita
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\Users\Admin\Desktop\nattoenzym\Font\SANFRANCISCOTEXT-BOLDITALIC.OTF
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:87088
+FileModTime:1421165268
+WeightClass:700
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,San Francisco Text Bold Italic
+NameArray:0,Win,1,San Francisco Text Bold Ita
+NameArray:0,Win,16,San Francisco Text
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SanFranciscoText-Heavy
+FamilyName:San Francisco Text
+StyleName:Heavy
+FullName:San Francisco Text Heavy
+MenuName:San Francisco Text ExtBd
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\Admin\Desktop\nattoenzym\Font\SANFRANCISCOTEXT-HEAVY.OTF
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:123236
+FileModTime:1421165270
+WeightClass:800
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,San Francisco Text Heavy
+NameArray:0,Win,1,San Francisco Text ExtBd
+NameArray:0,Win,16,San Francisco Text
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SanFranciscoText-HeavyItalic
+FamilyName:San Francisco Text
+StyleName:Heavy Italic
+FullName:San Francisco Text Heavy Italic
+MenuName:San Francisco Text ExtBd Ita
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\Admin\Desktop\nattoenzym\Font\SANFRANCISCOTEXT-HEAVYITALIC.OTF
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:87348
+FileModTime:1421165270
+WeightClass:800
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,San Francisco Text Heavy Italic
+NameArray:0,Win,1,San Francisco Text ExtBd Ita
+NameArray:0,Win,16,San Francisco Text
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SanFranciscoText-Italic
+FamilyName:San Francisco Text
+StyleName:Italic
+FullName:San Francisco Text Italic
+MenuName:San Francisco Text Italic
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Admin\Desktop\nattoenzym\Font\SANFRANCISCOTEXT-ITALIC.OTF
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:77092
+FileModTime:1421165264
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,San Francisco Text Italic
+NameArray:0,Win,1,San Francisco Text Italic
+NameArray:0,Win,16,San Francisco Text
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SanFranciscoText-Light
+FamilyName:San Francisco Text
+StyleName:Light
+FullName:San Francisco Text Light
+MenuName:San Francisco Text Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Admin\Desktop\nattoenzym\Font\SANFRANCISCOTEXT-LIGHT.OTF
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:115656
+FileModTime:1421165264
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,San Francisco Text Light
+NameArray:0,Win,1,San Francisco Text Light
+NameArray:0,Win,16,San Francisco Text
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SanFranciscoText-LightItalic
+FamilyName:San Francisco Text
+StyleName:Light Italic
+FullName:San Francisco Text Light Italic
+MenuName:San Francisco Text Light Italic
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Admin\Desktop\nattoenzym\Font\SANFRANCISCOTEXT-LIGHTITALIC.OTF
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:80140
+FileModTime:1421165264
+WeightClass:300
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,San Francisco Text Light Italic
+NameArray:0,Win,1,San Francisco Text Light Italic
+NameArray:0,Win,16,San Francisco Text
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SanFranciscoText-Medium
+FamilyName:San Francisco Text
+StyleName:Medium
+FullName:San Francisco Text Medium
+MenuName:San Francisco Text Med
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Admin\Desktop\nattoenzym\Font\SANFRANCISCOTEXT-MEDIUM.OTF
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:120040
+FileModTime:1421165266
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,San Francisco Text Medium
+NameArray:0,Win,1,San Francisco Text Med
+NameArray:0,Win,16,San Francisco Text
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SanFranciscoText-MediumItalic
+FamilyName:San Francisco Text
+StyleName:Medium Italic
+FullName:San Francisco Text Medium Italic
+MenuName:San Francisco Text Med Ita
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Admin\Desktop\nattoenzym\Font\SANFRANCISCOTEXT-MEDIUMITALIC.OTF
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:84392
+FileModTime:1421165266
+WeightClass:500
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,San Francisco Text Medium Italic
+NameArray:0,Win,1,San Francisco Text Med Ita
+NameArray:0,Win,16,San Francisco Text
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SanFranciscoText-Regular
+FamilyName:San Francisco Text
+StyleName:Regular
+FullName:San Francisco Text Regular
+MenuName:San Francisco Text Regular
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Admin\Desktop\nattoenzym\Font\SANFRANCISCOTEXT-REGULAR.OTF
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:108624
+FileModTime:1421165264
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,San Francisco Text Regular
+NameArray:0,Win,1,San Francisco Text Regular
+NameArray:0,Win,16,San Francisco Text
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SanFranciscoText-Semibold
+FamilyName:San Francisco Text
+StyleName:Semibold
+FullName:San Francisco Text Semibold
+MenuName:San Francisco Text SemBd
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Admin\Desktop\nattoenzym\Font\SANFRANCISCOTEXT-SEMIBOLD.OTF
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:121456
+FileModTime:1421165266
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,San Francisco Text Semibold
+NameArray:0,Win,1,San Francisco Text SemBd
+NameArray:0,Win,16,San Francisco Text
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SanFranciscoText-SemiboldItalic
+FamilyName:San Francisco Text
+StyleName:Semibold Italic
+FullName:San Francisco Text Semibold Italic
+MenuName:San Francisco Text SemBd Ita
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Admin\Desktop\nattoenzym\Font\SANFRANCISCOTEXT-SEMIBOLDITALIC.OTF
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:85296
+FileModTime:1421165268
+WeightClass:600
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,San Francisco Text Semibold Italic
+NameArray:0,Win,1,San Francisco Text SemBd Ita
+NameArray:0,Win,16,San Francisco Text
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SanFranciscoText-Thin
+FamilyName:San Francisco Text
+StyleName:Thin
+FullName:San Francisco Text Thin
+MenuName:San Francisco Text Thin
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Admin\Desktop\nattoenzym\Font\SANFRANCISCOTEXT-THIN.OTF
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:114196
+FileModTime:1421165264
+WeightClass:265
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,San Francisco Text Thin
+NameArray:0,Win,1,San Francisco Text Thin
+NameArray:0,Win,16,San Francisco Text
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SanFranciscoText-ThinItalic
+FamilyName:San Francisco Text
+StyleName:Thin Italic
+FullName:San Francisco Text Thin Italic
+MenuName:San Francisco Text Thin Italic
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Admin\Desktop\nattoenzym\Font\SANFRANCISCOTEXT-THINITALIC.OTF
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:78560
+FileModTime:1421165264
+WeightClass:265
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,San Francisco Text Thin Italic
+NameArray:0,Win,1,San Francisco Text Thin Italic
+NameArray:0,Win,16,San Francisco Text
+%EndFont
+

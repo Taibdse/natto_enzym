@@ -1,0 +1,233 @@
+.menu-box {
+    /* border: 1px solid #a1a1a1; */
+    /* margin: 10px;
+  padding: 10px; */
+}
+
+.menu-box ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-box ul.menu-list li {
+    display: block;
+    background: #fff;
+}
+
+.menu-box ul.menu-list>li a:hover {
+    cursor: move;
+}
+
+.menu-box ul.menu-list ul {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.menu-box ul.menu-list ul li a {
+    color: blue;
+}
+
+.menu-box li.menu-highlight {
+    border: 1px dashed #999 !important;
+    background: #f5f5f5;
+}
+
+.add-l .row-base {
+    display: flex;
+    align-items: center;
+}
+
+.add-l .row-base .btn-add-item, .btn-add-select-item {
+    padding-left: 5px;
+    padding-right: 10px;
+    margin-left: 10px;
+    white-space: nowrap;
+    display: flex;
+}
+
+.add-l .row-base .btn-add-item i {
+    padding-right: 0;
+}
+
+.add-l .form-group label {
+    color: #23282d;
+    font-size: 14px;
+}
+
+.add-l .form-group .form-control {
+    height: 35px;
+    color: #23282d;
+    font-size: 14px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #ddd;
+    -webkit-transition: 0.23s ease-in-out;
+    transition: 0.23s ease-in-out;
+}
+
+.add-l .form-group .form-control:focus {
+    border-color: #999;
+    -webkit-transition: 0.23s ease-in-out;
+    transition: 0.23s ease-in-out;
+}
+
+.add-l .form-group .btn-submits {
+    color: #23282d;
+    font-size: 14px;
+    font-weight: 500;
+    border: solid 1px #999;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.menu-box .menu-list li .item-handle {
+    cursor: pointer;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 5px 0;
+    padding: 5px 5px 5px 15px;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    line-height: 27px;
+}
+
+.menu-box .menu-list li .item-handle:hover {
+    border-color: #999;
+}
+
+.menu-box .menu-list li .item-handle .item-title {
+    width: 50%;
+    display: block;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #23282d;
+}
+
+.menu-box .menu-list li .item-handle .item-control {
+    text-align: right;
+    width: 50%;
+    display: block;
+    cursor: pointer;
+}
+
+.menu-box .menu-list li .item-handle .item-control .item-type {
+    font-size: 12px;
+    color: #666;
+    margin-right: 38px;
+}
+
+.menu-box .menu-list li .item-handle .item-control .item-edit {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 38px;
+}
+
+.menu-box .menu-list li .item-handle .item-control .item-edit span {
+    position: relative;
+}
+
+.menu-box .menu-list li .item-handle .item-control .item-edit span::before {
+    position: absolute;
+    top: -2px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    content: '';
+    border-color: #999 transparent;
+    border-style: solid;
+    border-width: 7px 5px 0px 5px;
+    height: 0px;
+    width: 0px;
+}
+
+.menu-box .menu-list li .item-handle .item-control .item-edit:hover span::before {
+    border-color: #222 transparent;
+}
+
+.menu-box .menu-list li .item-handle .item-control .active span::before {
+    border-width: 0px 5px 7px 5px;
+}
+
+.menu-box .menu-list li .ct-item {
+    display: none;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    z-index: 10;
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.menu-box .menu-list li .ct-item form .form-group .form-control {
+    color: #23282d;
+    font-size: 14px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #ddd;
+    -webkit-transition: 0.23s ease-in-out;
+    transition: 0.23s ease-in-out;
+}
+
+.menu-box .menu-list li .ct-item form .form-group .form-control:focus {
+    border-color: #999;
+    -webkit-transition: 0.23s ease-in-out;
+    transition: 0.23s ease-in-out;
+}
+
+.menu-box .menu-list li .ct-item form p,
+.menu-box .menu-list li .ct-item form span {
+    margin-right: 4px;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.menu-box .menu-list li .ct-item form p a,
+.menu-box .menu-list li .ct-item form span a {
+    margin-right: 4px;
+    font-size: 13px;
+    text-decoration: underline;
+    color: #0073aa;
+}
+
+.menu-box .menu-list li .ct-item form a {
+    margin-right: 4px;
+    font-size: 13px;
+    text-decoration: underline;
+    color: #0073aa;
+    cursor: pointer;
+}
+
+.menu-box .menu-list li .ct-item form p {
+    margin-bottom: 5px;
+}
+
+.menu-box .menu-list li .ct-item .cl-group a.red {
+    color: red;
+}
+
+.select2-container {
+    width: calc(100% - 70px) !important;
+}
+
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,361 @@
+.news-lastest{
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  .thumb{
+    img{
+      width: 100%;
+      transition: all 0.2s ease-out;
+    }
+  }
+  .news-overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: rgb(0,121,63);
+    background: linear-gradient(0deg, rgba(0,121,63,1) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%);
+  }
+  .news-title{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 10px 20px;
+    h2{
+      font-family: 'SANFRANCISCOTEXT-BOLD';
+      font-size: 25px;
+      color: #fff;
+    }
+  }
+  &:hover{
+    .thumb{
+      img{
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+.news-container{
+  padding: 30px 0px 70px;
+}
+.news-details-container{
+  padding: 30px 0px 70px;
+  .news-content-box{
+    h1,h3{
+      color: #232323;
+      font-size: 36px;
+      font-family: 'SANFRANCISCOTEXT-BOLD';
+      margin-bottom: 15px;
+      @media screen and (max-width:991px){
+        font-size: 25px;
+      }
+    }
+    p{
+      font-size: 14px;
+      font-family: 'SANFRANCISCOTEXT-REGULAR';
+      margin-bottom: 20px;
+    }
+    img{
+      max-width: 100%;
+      height: auto !important;
+    }
+    iframe{
+      max-width: 100%;
+    }
+  }
+}
+.news-related{
+  background: url('../images/news/bg-news-sidebar.png') no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  padding: 30px 15px;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  h2{
+    text-transform: uppercase;
+    color: #02793f;
+    font-size: 25px;
+    font-family: 'SANFRANCISCOTEXT-BOLD';
+    text-align: center;
+  }
+  hr{
+    border-top: 1px solid #02793f;
+  }
+  .news-related-li{
+    margin-bottom: 30px;
+    &:last-child{
+      margin-bottom: 0px;
+    }
+    .thumb{
+      overflow: hidden;
+      border-radius: 12px;
+      img{
+        width: 100%;
+        transition: all 0.2s ease-out;
+      }
+    }
+    .news-related-title{
+      h3{
+        font-family: 'SANFRANCISCOTEXT-BOLD';
+        font-size: 18px;
+        margin: 10px 0px 10px 20px;
+        transition: all 0.2s ease-out;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        @media screen and (max-width: 1199px){
+          font-size: 16px;
+        }
+      }
+    }
+    &:hover{
+      .thumb{
+        img{
+          transform: scale(1.1);
+        }
+      }
+      .news-related-title{
+        color: #02793f;
+      }
+    }
+  }
+}
+.news-related-banner{
+  margin-bottom: 30px;
+  img{
+    width: 100%;
+  }
+}
+.like-share{
+  margin-bottom: 20px;
+}
+
+.sticky {
+  position: sticky;
+  top: 109px !important;
+}
+.banner-right{
+  @media screen and (max-width: 991px){
+    margin-top: 30px;
+  }
+  @media screen and (max-width: 767px){
+    text-align: center;
+  }
+}
+//-----------------------------video---------------------------------
+.video-list{
+  .video-item{
+    margin-bottom: 30px;
+    &:hover{
+      .video-thumb{
+        >img{
+          transform: scale(1.1);
+        }
+      }
+    }
+    .video-thumb{
+      position: relative;
+      overflow: hidden;
+      border-radius: 15px;
+      >img{
+        width: 100%;
+        transition: all 0.2s ease-out;
+      }
+      .play-video-icon{
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+          width: 30%;
+        }
+      }
+    }
+    .video-desc{
+      p{
+        font-family: 'SANFRANCISCOTEXT-REGULAR';
+        font-size: 14px;
+        margin-top: 10px;
+      }
+    }
+  }
+}
+.news-container{
+  .section-title {
+    @media screen and (max-width: 767px) {
+      background: url('../images/default/bg-title.png') repeat-x;
+      background-size: contain;
+    }
+  }
+}
+.video-audio-container{
+  .section-title{
+    @media screen and (max-width: 767px){
+      background: url('../images/default/bg-title.png') repeat-x;
+      background-size: contain;
+    }
+    h2{
+      padding: 15px 90px;
+      @media screen and (max-width: 767px){
+        //font-size: 25px;
+        padding: 15px 50px;
+      }
+    }
+  }
+  .see-more{
+    margin-top: 15px;
+  }
+}
+.video-container{
+  margin: 60px 0px;
+
+}
+.popup-video{
+  padding: 15px;
+  font-size: 0px;
+  max-width: 1000px;
+  box-shadow: 0 0 10px #02793f;
+  width: 100%;
+}
+.video-box {
+  position: relative;
+  video {
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: 1;
+  }
+}
+.control-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 11;
+  background-color: transparent;
+  cursor: pointer;
+}
+.sound {
+  position: absolute;
+  bottom: 8%;
+  right: 2%;
+  width: 30px;
+  height: 30px;
+
+  z-index: 13;
+
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 50%;
+  background-image: url('../images/soundOn.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  @media screen and (max-width: 767px) {
+    width: 20px;
+    height: 20px;
+    bottom: 8%;
+    right: 4%;
+  }
+}
+.muted {
+  background-image: url('../images/soundOff.png') !important;
+}
+.overlay-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+  opacity: 0.8;
+  background: url('../images/play-icon.png');
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: center center;
+  visibility: hidden;
+  // transition: all 0.25s;
+  @media (max-width: 480px) {
+    background-size: 50px;
+  }
+}
+.audio-container{
+  padding-bottom: 60px;
+}
+.audio-list{
+  .audio-item{
+    margin-bottom: 30px;
+    .audio-thumb{
+      background: #bee2c8;
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      border-radius: 15px;
+      .play-video-icon{
+        width: 20%;
+        margin-right: 10px;
+        background: url('../images/video/ico_play.png') no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 0px;
+        padding: 10%;
+      }
+    }
+    .audio-desc{
+      p{
+        font-family: 'SANFRANCISCOTEXT-REGULAR';
+        font-size: 14px;
+        margin-top: 10px;
+      }
+    }
+  }
+  .audio-item.active{
+    .play-video-icon{
+      background: url('../images/video/ico_pause.png') no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+  }
+}
+#wave, #wave1, #wave2 {
+  height: 70px;
+  width: 70px;
+  fill: #02793f;
+  margin-right: 7px;
+}
+.audio-item.active{
+  @for $i from 1 through 9 {
+    #Line_#{$i} {
+      animation: pulse 1s infinite;
+      animation-delay: $i * .15s;
+    }
+  }
+}
+
+
+@keyframes pulse {
+  0% {
+    transform: scaleY(1);
+    transform-origin: 50% 50%;
+  }
+
+  50% {
+    transform: scaleY(.7);
+    transform-origin: 50% 50%;
+  }
+
+  100% {
+    transform: scaleY(1);
+    transform-origin: 50% 50%;
+  }
+}

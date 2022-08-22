@@ -1,0 +1,31 @@
+#mediaModal .images .item { cursor: pointer; border: 1px solid #ccc; background-color: #e2e2e2; padding: 0px; border-radius: 5px; text-align: center; font-size: 12px; margin-bottom: 15px; height: 100px; }
+#mediaModal .images .item.active { background-color: yellow; }
+#mediaModal .images .item img { height: 80px; width: 100% }
+#progress-wrp {
+    border: 1px solid #0099CC;
+    padding: 1px;
+    position: relative;
+    border-radius: 3px;
+    margin: 10px;
+    text-align: left;
+    background: #fff;
+    box-shadow: inset 1px 3px 6px rgba(0, 0, 0, 0.12);
+    height: 23px;
+}
+#progress-wrp .progress-bar{
+    height: 20px;
+    border-radius: 3px;
+    background-color: green;
+    width: 0;
+    box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.11);
+}
+#progress-wrp .status{
+    top:3px;
+    left:50%;
+    position:absolute;
+    display:inline-block;
+    color: #000000;
+}
+#btn-remove-list, #btn-status-list{
+    display: none;
+}

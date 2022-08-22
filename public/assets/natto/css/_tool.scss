@@ -1,0 +1,165 @@
+
+.w_100 {
+    width: 100%;
+}
+
+.flex-reverse{
+  display: -ms-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+}
+.logo_pc, .photo{
+  img{
+    max-width: 100%;
+  }
+}
+
+
+
+@-webkit-keyframes animatedown {
+    0%{-webkit-transform:translateY(-100%);transform:translateY(-100%)}
+    100%{-webkit-transform:translateY(0);transform:translateY(0)}
+}
+
+
+@keyframes animatedown {
+    0%{-webkit-transform:translateY(-100%);transform:translateY(-100%)}
+    100%{-webkit-transform:translateY(0);transform:translateY(0)}
+}
+
+
+.fixed {
+    position: fixed;
+    top: 0px;
+    z-index: 99;
+    width: 100%;
+    -webkit-transition: top 0.3s;
+    transition: top 0.3s;
+    -webkit-animation: animatedown 0.6s;
+            animation: animatedown 0.6s;
+}
+.clearfix::before, .clearfix::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+[class^='clearfix'] {
+    clear: both;
+    display: block;
+}
+.clearfix-60{
+    height: 60px;
+}
+.action-user{
+  .user-log{
+    display: flex;
+  }
+  @media screen and (max-width: 991px){
+    text-align: center;
+    padding-top: 7px;
+    .user-log{
+      display: inline-flex;
+    }
+  }
+  a{
+    text-align: left !important;
+    span{
+      color: #414141;
+      display: block;
+      padding: 2px 15px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      cursor: pointer;
+      -webkit-transition: all 0.15s;
+      -moz-transition: all 0.15s;
+      -ms-transition: all 0.15s;
+      -o-transition: all 0.15s;
+      transition: all 0.15s;
+      font-size: 15px;
+      font-family: 'SANFRANCISCOTEXT-REGULAR';
+      .fa{
+        margin-left: 7px;
+      }
+      &:hover{
+        color: #027A3F;
+        -webkit-transition: all 0.15s;
+        -moz-transition: all 0.15s;
+        -ms-transition: all 0.15s;
+        -o-transition: all 0.15s;
+        transition: all 0.15s;
+      }
+      @media (max-width: 991px){
+
+      }
+    }
+  }
+  .user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a{
+
+      img{
+        width: 30px;
+        height: 30px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+
+      }
+    }
+    .box{
+      font-size: 13px;
+      padding-left: 5px;
+      b{
+        font-family: 'SANFRANCISCOTEXT-SEMIBOLD';
+      }
+      a{
+        color: #0a091d;
+        display: block;
+        font-family: 'SANFRANCISCOTEXT-SEMIBOLD';
+        @media (max-width: 991px){
+          color: #0a091d;
+        }
+      }
+    }
+  }
+}
+
+ //======================================= media query======================================\\
+@media (min-width:1200px) /* xl*/ {
+    .container{
+        max-width: 1140px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199.98px) /* lg*/{
+
+}
+
+@media (min-width:768px) and (max-width:991.98px) /* md*/{
+
+}
+
+@media (max-width:767.98px) /* sm*/{
+
+}
+
+@media (max-width:575.98px) {
+  .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .row{
+    margin-left: -5px;
+    margin-right: -5px;
+  }
+
+}
+
+ //======================================= media query======================================\\
