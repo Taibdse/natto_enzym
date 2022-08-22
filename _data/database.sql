@@ -52,6 +52,7 @@ CREATE TABLE `wne_admins`  (
 -- ----------------------------
 INSERT INTO `wne_admins` VALUES (1, 'Letha Kutch DDS', 'admin1@gmail.com', NULL, '$2y$10$NztiwFpmgKHlue9HCJi4gOvbLGb5PkO7vOa0TKqOQTqZxR7G/Ib9S', 'dSJNxpBoSerELJVMfAJSiT4uJYciFURYFhlHYGmVIYMyZNSRTYYbwWHiILAl', NULL, -1, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, 4, '2019-09-25 11:32:25', '2019-09-25 11:32:25');
 INSERT INTO `wne_admins` VALUES (2, 'Maria Lebsack', 'admin2@gmail.com', NULL, '$2y$10$KQkgNEYWU7L/3siHqGZ4PebDMm7Q0MB77C0.7mOzvQnmgIUabdTV2', NULL, NULL, -1, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, 4, '2019-09-25 11:32:25', '2019-09-25 11:32:25');
+INSERT INTO `wne_admins` VALUES (3, 'Admin test', 'nattoenzym@dhgpharma.com.vn', NULL, '$2y$10$HxrSLLPITAO4bWuhGkW.y.hXOcv9Faj0ZjZKtKwLaZwM6WdIuSNbW', NULL, NULL, -1, NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, 4, '2019-09-25 11:32:25', '2019-09-25 11:32:25');
 
 -- ----------------------------
 -- Table structure for wne_audits
